@@ -4,11 +4,14 @@ body {
     margin: 0;
     padding: 20px;
   }
-  
+
 
       h1 {
         color: #ffcc00; /* Darker yellow for the heading */
         text-align: center;
+      }
+      .around {
+        margin-left: 70px;
       }
 
       p {
@@ -40,6 +43,7 @@ body {
       input[type="password"],
       input[type="number"],
       input[type="file"],
+      input[type="confirm-password"],
       select,
       textarea {
         width: 100%;
@@ -62,6 +66,7 @@ body {
         border: none;
         padding: 10px 15px;
         border-radius: 4px;
+        font-weight: bold;
         cursor: pointer;
         width: 100%;
         font-size: 16px;
@@ -90,12 +95,7 @@ body {
         text-align: center;
         margin-top: 10px;
       }
-
-      .terms a {
-        color: #ffcc00; /* Yellow link */
-        text-decoration: none;
-      }
-
-      .terms a:hover {
-        text-decoration: underline;
-      }
+.achor {
+  color: #ffcc00;
+}
+      
