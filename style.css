@@ -29,7 +29,7 @@ body {
       }
 
       fieldset {
-        border: none;
+        border: 1px solid #ffb300;
         margin-bottom: 20px;
       }
       
